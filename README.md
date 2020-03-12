@@ -6,3 +6,5 @@
 3.selection sort
 
 4.bubble_sort
+
+5.First Nonrepeating elememt 
