@@ -10,10 +10,13 @@
 using namespace std;
 int recur_linear(int arr[],int i,int key)
 {
-	if(arr[i]!=key)
-		return recur_linear(arr,i+1,key);
+	if(arr[i]==key)
+		return i;
 
-	return i+1;
+     recur_linear(arr,i+1,key);
+
+	if(i==5)
+		return -1;
 
 
 
@@ -36,6 +39,10 @@ int main() {
 
 
      }
-	cout<< recur_linear(arr,0,7)<<"th element has got value  = key"<<endl;
+	int j;
+	j=recur_linear(arr,0,1);
+	if(j==-1)
+		cout<<"Element not found"<<endl;
+
 }
 
