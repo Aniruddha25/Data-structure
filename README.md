@@ -8,3 +8,7 @@
 4.bubble_sort
 
 5.First Nonrepeating elememt 
+
+6.insertion sort 2
+
+7.stack using c++
