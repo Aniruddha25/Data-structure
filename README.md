@@ -12,3 +12,5 @@
 6.insertion sort 2
 
 7.stack using c++
+
+8.queue1.cpp - Array implementation of linear queue
