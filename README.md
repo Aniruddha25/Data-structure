@@ -14,3 +14,5 @@
 7.stack using c++
 
 8.queue1.cpp - Array implementation of linear queue
+
+9.vector.cpp - vectors and its function
