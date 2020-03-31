@@ -15,4 +15,4 @@
 
 8.queue1.cpp - Array implementation of linear queue
 
-9.vector.cpp - vectors and its function
+9.vector.cpp - vectors and its function,algorithm - sorting,important stl algos like reverse,find,count,distance applied on vectors
