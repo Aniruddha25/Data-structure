@@ -8,6 +8,7 @@
 
 #include <iostream>
 #include <vector>
+#include <algorithm>
 using namespace std;
 
 int main() {
@@ -83,7 +84,39 @@ int main() {
     g.resize(5);//for changing array size
     g.empty(); //to check array is empty or not
 	g.clear();//for removing all element from array
+	cout<<endl;
+	vector <int> f;
+	f.push_back(8);
+	f.push_back(7);
+	f.push_back(5);
+	f.push_back(9);
 
+	sort(f.begin(),f.end());//sorting using algorithm library
+	for(int i=0;i<f.size();i++){
+		cout<<f[i]<<'\t';
+	}
+	cout<<endl;
+	reverse(f.begin(),f.end());//for reversing the array/vector
+	for(int i=0;i<f.size();i++){
+			cout<<f[i]<<'\t';
+
+		}
+	cout<<endl;
+	//To count frequency of array element
+	cout<<"Count of 7 :" <<count(f.begin(),f.end(),7);
+	cout<<endl;
+	//find() to check element present in array or not
+   if(find(f.begin(),f.end(),5)!=f.end())
+   {
+	   cout<<"Element is found "<<endl;
+   }
+   f.erase(f.begin()+1);//for deleting specified position
+   for(int i=0;i<f.size();i++){
+   			cout<<f[i]<<'\t';
+
+   		}
+   //Distance between two vector elements in terms of index
+   cout<<distance(f.begin(),f.end());
 
 
 
