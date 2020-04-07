@@ -8,7 +8,6 @@
 
 #include <iostream>
 #include <stack>
-#include <queue>
 #include <string>
 using namespace std;
 
@@ -21,6 +20,8 @@ int main() {
 	cout<<s.top();
 	cout<<endl;
 	cout<<s.size();
+	cout<<endl;
+	cout<<s.empty();
 
 
 
